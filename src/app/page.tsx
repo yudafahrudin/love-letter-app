@@ -11,6 +11,7 @@ import Word6 from "./word6";
 
 export default function Home() {
   const [page, setPage] = useState(1);
+  const data = 1;
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-10">
       {page === 1 && <Word1 setPage={setPage} />}
